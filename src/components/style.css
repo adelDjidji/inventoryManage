@@ -1,0 +1,43 @@
+.ant-table.ant-table-bordered thead > tr > th,
+.ant-table.ant-table-bordered tbody > tr > td,
+.ant-table.ant-table-bordered tfoot > tr > th,
+.ant-table.ant-table-bordered tfoot > tr > td {
+  /* border-color: #acacac !important; */
+  font-size: 12pt;
+  color: black;
+  line-height: 1;
+}
+.ant-table.ant-table-bordered {
+  border-color: #acacac !important;
+}
+.ant-input-number {
+  width: 100% !important;
+}
+.ant-btn{
+    border-radius: 43px !important;
+}
+.ant-btn.ant-btn-primary {
+  background-color: #2dce89 !important;
+  border: none !important;
+  border-radius: 43px !important;
+  color: white !important;
+  /* font-size: 16px !important; */
+  font-weight: bold !important;
+  border-color: #2dce89 !important;
+  /* display: flex !important; */
+  /* align-items: baseline !important; */
+}
+.ant-btn> .anticon {
+        line-height: 1;
+        top: -2px;
+        position: relative;
+}
+.ant-btn.ant-btn-primary:hover{
+    background-color: #27ad73 !important;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.479);
+}
+.ant-btn:active{
+    transform: scale(0.94) !important;
+}
+
+
